@@ -195,3 +195,49 @@ a {
   background-color: #000;
   height: 10rem;
 }
+
+/* Media queries */
+
+/* 1023px */
+@media only screen and (max-width: 63.9375em) {
+  .cover {
+    height: 60vh;
+  }
+
+  .main-section {
+    margin-bottom: 4.2rem;
+  }
+
+  .latest-funding-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .latest-fundings-header-links,
+  .latest-deals-header-link {
+    margin-top: 1rem;
+  }
+
+  .latest-news {
+    margin: -1rem;
+  }
+
+  .latest-news-item,
+  .latest-deal {
+    padding: 1rem;
+    flex-basis: 33.33333%;
+  }
+
+  .latest-funding {
+    flex-basis: 33.33333%;
+  }
+
+  .latest-funding:last-of-type {
+    display: none;
+  }
+
+  .category {
+    padding: 1rem;
+    flex-basis: 50%;
+  }
+}
