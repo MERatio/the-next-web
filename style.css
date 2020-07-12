@@ -248,3 +248,79 @@ a {
     flex-basis: 50%;
   }
 }
+
+/* 767px */
+@media only screen and (max-width: 47.9375em) {
+  .nav-first {
+    display: none;
+  }
+
+  .main {
+    margin-top: 4.8rem;
+  }
+
+  .cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .cover-story:first-of-type {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  .latest-news,
+  .latest-fundings,
+  .categories,
+  .latest-deals {
+    margin: -0.8rem;
+  }
+
+  .latest-news-item,
+  .latest-deal,
+  .latest-funding,
+  .category {
+    padding: 0.8rem;
+  }
+
+  .latest-news-item,
+  .latest-deal {
+    flex-basis: 100%;
+    height: 8.8rem;
+  }
+
+  .latest-fundings-header-links,
+  .latest-deals-header-link {
+    font-size: 1.4rem;
+  }
+
+  .latest-fundings-header-links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0.5rem;
+  }
+
+  .latest-fundings-header-links li:not(:last-of-type) {
+    padding-right: 0;
+    border-right: none;
+    margin-right: 0;
+  }
+
+  .latest-fundings-header-links li {
+    margin-top: 1.1rem;
+  }
+
+  .latest-funding {
+    flex-basis: 100%;
+    height: 25rem;
+  }
+
+  .category {
+    flex-basis: 100%;
+    margin-bottom: 0;
+  }
+
+  .footer-copyright {
+    height: 12.4rem;
+  }
+}
