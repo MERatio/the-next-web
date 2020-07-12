@@ -217,13 +217,22 @@ a {
     margin-top: 1rem;
   }
 
-  .latest-news {
+  .latest-news,
+  .latest-fundings,
+  .categories,
+  .latest-deals {
     margin: -1rem;
   }
 
   .latest-news-item,
-  .latest-deal {
+  .latest-deal,
+  .latest-funding,
+  .category {
     padding: 1rem;
+  }
+
+  .latest-news-item,
+  .latest-deal {
     flex-basis: 33.33333%;
   }
 
@@ -236,7 +245,6 @@ a {
   }
 
   .category {
-    padding: 1rem;
     flex-basis: 50%;
   }
 }
