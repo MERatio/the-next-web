@@ -236,10 +236,6 @@ a {
 
 /* Latest news / Latest deals */
 
-.latest-news-section {
-  margin-top: 8rem;
-}
-
 .latest-news,
 .latest-deals {
   display: flex;
@@ -267,7 +263,17 @@ a {
   margin-bottom: 0.8rem;
 }
 
+.latest-news-item-title,
+.latest-deal-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
 /* Latest news */
+
+.latest-news-section {
+  margin-top: 8rem;
+}
 
 .latest-news-item {
   height: 25rem;
@@ -309,11 +315,6 @@ a {
   background-image: url(images/latest-news/8.png);
 }
 
-.latest-news-item-title {
-  font-size: 1.6rem;
-  margin-bottom: 0.4rem;
-}
-
 .latest-news-item-byline {
   color: #aaa;
   display: flex;
@@ -327,15 +328,82 @@ a {
 /* Latest deals */
 
 .latest-deal {
-  height: 30rem;
+  height: 32rem;
 }
 
 .latest-deal-content {
-  background-color: red;
+  position: relative;
 }
 
 .latest-deal-img {
-  height: 80%;
+  height: 70%;
+  background-position: 0px 100%;
+}
+
+.latest-deal-img-1 {
+  background-image: url(images/latest-deals/1.jpeg);
+}
+
+.latest-deal-img-2 {
+  background-image: url(images/latest-deals/2.jpeg);
+}
+
+.latest-deal-img-3 {
+  background-image: url(images/latest-deals/3.jpeg);
+}
+
+.latest-deal-img-4 {
+  background-image: url(images/latest-deals/4.jpeg);
+}
+
+.latest-deal-img-5 {
+  background-image: url(images/latest-deals/5.jpeg);
+}
+
+.latest-deal-img-6 {
+  background-image: url(images/latest-deals/6.jpeg);
+}
+
+.latest-deal-img-7 {
+  background-image: url(images/latest-deals/7.jpeg);
+}
+
+.latest-deal-img-8 {
+  background-image: url(images/latest-deals/8.jpeg);
+}
+
+.latest-deal-yellow-triangle {
+  border-style: solid;
+  border-width: 0 8rem 8rem 0;
+  border-color: transparent #ffcc00 transparent transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.latest-deal-discount {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  font-weight: 700;
+  position: absolute;
+  top: 2.2rem;
+  right: 0;
+}
+
+.latest-deal-price {
+}
+
+.latest-deal-price-old {
+  font-size: 1.3rem;
+  color: #aaa;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+.latest-deal-price-new {
+  font-size: 1.6rem;
+  color: #555;
 }
 
 /* Latest funding */
@@ -507,11 +575,12 @@ a {
     flex-basis: 33.33333%;
   }
 
-  /* Latest news */
-
-  .latest-news-item-title {
+  .latest-news-item-title,
+  .latest-deal-title {
     font-size: 1.4rem;
   }
+
+  /* Latest news */
 
   /* Latest deals */
 
@@ -609,19 +678,22 @@ a {
     height: 8.8rem;
   }
 
-  /* Latest news */
-  .latest-news-item-content {
+  .latest-news-item-content,
+  .latest-deal-content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
   }
 
-  .latest-news-item-img {
+  .latest-news-item-img,
+  .latest-deal-img {
     width: 7.5rem;
     height: 100%;
     margin: 0 1rem 0 0;
   }
+
+  /* Latest news */
 
   /* Latest deals */
 
