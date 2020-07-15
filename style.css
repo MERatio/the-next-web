@@ -248,6 +248,7 @@ a {
 
 .latest-news-item,
 .latest-deal {
+  line-height: 2rem;
   flex-basis: 25%;
   height: 25rem;
   padding: 1.2rem;
@@ -255,8 +256,67 @@ a {
 
 .latest-news-item-content,
 .latest-deal-content {
-  background-color: chartreuse;
   height: 100%;
+}
+
+.latest-deal-content {
+  background-color: red;
+}
+
+.latest-news-item-img {
+  display: block;
+  height: 65%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-bottom: 0.8rem;
+}
+
+.latest-news-item-img-1 {
+  background-image: url(images/latest-news/1.png);
+}
+
+.latest-news-item-img-2 {
+  background-image: url(images/latest-news/2.png);
+}
+
+.latest-news-item-img-3 {
+  background-image: url(images/latest-news/3.png);
+}
+
+.latest-news-item-img-4 {
+  background-image: url(images/latest-news/4.png);
+}
+
+.latest-news-item-img-5 {
+  background-image: url(images/latest-news/5.png);
+}
+
+.latest-news-item-img-6 {
+  background-image: url(images/latest-news/6.png);
+}
+
+.latest-news-item-img-7 {
+  background-image: url(images/latest-news/7.png);
+}
+
+.latest-news-item-img-8 {
+  background-image: url(images/latest-news/8.png);
+}
+
+.latest-news-item-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.latest-news-item-byline {
+  color: #aaa;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.latest-news-item-byline li:not(:last-child) {
+  margin-right: 0.4rem;
 }
 
 /* Latest funding */
