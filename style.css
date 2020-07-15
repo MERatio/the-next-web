@@ -469,11 +469,28 @@ a {
   .cover {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
+    height: auto;
   }
 
-  .cover-story:first-of-type {
+  .cover-story {
+    min-height: 30vh;
+  }
+
+  .cover-story-1 {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+  }
+
+  .cover-story-header {
+    padding: 1.4rem 1.2rem;
+  }
+
+  .cover-story-1 .cover-story-title {
+    font-size: 2rem;
+  }
+
+  .cover-story-title {
+    margin-bottom: 0.5rem;
   }
 
   .latest-news,
