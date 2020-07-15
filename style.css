@@ -577,6 +577,19 @@ a {
     height: 8.8rem;
   }
 
+  .latest-news-item-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .latest-news-item-img {
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 1rem 0 0;
+  }
+
   .latest-fundings-header-links,
   .latest-deals-header-link {
     font-size: 1.4rem;
