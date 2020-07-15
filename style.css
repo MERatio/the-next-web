@@ -465,16 +465,6 @@ a {
     margin-bottom: 4.2rem;
   }
 
-  .latest-funding-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .latest-fundings-header-links,
-  .latest-deals-header-link {
-    margin-top: 1rem;
-  }
-
   .latest-news,
   .latest-fundings,
   .categories,
@@ -494,8 +484,22 @@ a {
     flex-basis: 33.33333%;
   }
 
+  .latest-news-item-title {
+    font-size: 1.4rem;
+  }
+
   .latest-funding {
     flex-basis: 33.33333%;
+  }
+
+  .latest-funding-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .latest-fundings-header-links,
+  .latest-deals-header-link {
+    margin-top: 1rem;
   }
 
   .latest-funding:last-of-type {
