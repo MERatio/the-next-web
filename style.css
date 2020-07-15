@@ -675,6 +675,7 @@ a {
   .latest-news-item,
   .latest-deal {
     flex-basis: 100%;
+    max-width: 100%;
     height: 8.8rem;
   }
 
@@ -693,9 +694,10 @@ a {
     margin: 0 1rem 0 0;
   }
 
-  /* Latest news */
-
-  /* Latest deals */
+  .latest-deal-yellow-triangle,
+  .latest-deal-discount {
+    display: none;
+  }
 
   /* Latest fundings */
   .latest-fundings-header-links,
