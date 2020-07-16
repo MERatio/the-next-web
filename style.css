@@ -391,9 +391,6 @@ a {
   right: 0;
 }
 
-.latest-deal-price {
-}
-
 .latest-deal-price-old {
   font-size: 1.3rem;
   color: #aaa;
@@ -679,19 +676,12 @@ a {
     height: 8.8rem;
   }
 
-  .latest-news-item-content,
-  .latest-deal-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-  }
-
   .latest-news-item-img,
   .latest-deal-img {
     width: 7.5rem;
     height: 100%;
     margin: 0 1rem 0 0;
+    float: left;
   }
 
   .latest-deal-yellow-triangle,
