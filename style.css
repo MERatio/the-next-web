@@ -426,11 +426,93 @@ a {
   flex-basis: 25%;
   height: 32rem;
   padding: 1.2rem;
+  overflow: hidden;
 }
 
 .latest-funding-content {
-  background-color: cornflowerblue;
+  background-color: #fffaf8;
   height: 100%;
+  position: relative;
+}
+
+.latest-funding-header {
+  display: block;
+}
+
+.latest-funding-company-img {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+}
+
+.latest-funding-company-name {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: var(--orange);
+  padding: 1rem 1.6rem 1rem 8.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latest-funding-company-details {
+  color: #000;
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 1rem 0 1rem 8.4rem;
+}
+
+.latest-funding-company-details h4 {
+  font-size: 1.8rem;
+}
+
+.latest-funding-company-details h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.latest-funding-texts {
+  font-size: 1.3rem;
+  padding: 1.6rem;
+  color: #555;
+}
+
+.latest-funding-texts > *:hover {
+  color: #000;
+}
+
+.latest-funding-texts i {
+  font-size: 1.6rem;
+  color: #000;
+  margin-right: 0.8rem;
+}
+
+.latest-funding-text-1 {
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.latest-funding-text-2 {
+  display: block;
+}
+
+.latest-funding-byline {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  padding: 1.6rem;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.latest-funding-byline a {
+  color: #555;
+  font-weight: 400;
+}
+
+.latest-funding-byline span {
+  color: #aaa;
 }
 
 /* Categories */
@@ -586,7 +668,7 @@ a {
     flex-basis: 33.33333%;
   }
 
-  .latest-funding-header {
+  .latest-fundings-header {
     flex-direction: column;
     align-items: flex-start;
   }
