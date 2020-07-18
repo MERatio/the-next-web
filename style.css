@@ -50,7 +50,7 @@ a {
 
 .latest-news,
 .latest-fundings,
-.categories,
+.sections,
 .latest-deals {
   margin: -1.2rem;
 }
@@ -515,23 +515,196 @@ a {
   color: #aaa;
 }
 
-/* Categories */
+/* Sections */
 
-.categories {
+.sections {
   display: flex;
   flex-wrap: wrap;
 }
 
-.category {
+.section {
   width: 33.33333%;
-  height: 70.5rem;
   padding: 1.2rem;
   margin-bottom: 2.4rem;
 }
 
-.category-content {
-  background-color: greenyellow;
+.section .section-header {
+  margin-bottom: 1.4rem;
+}
+
+.section-popular {
+  height: 27.5rem;
+  position: relative;
+}
+
+.section-popular-img {
+  display: block;
   height: 100%;
+  background-position: 50%;
+  background-size: cover;
+  filter: brightness(60%);
+}
+
+.section-popular-img-1 {
+  background-image: url(images/most-popular-sections/1.png);
+}
+
+.section-popular-img-2 {
+  background-image: url(images/most-popular-sections/2.png);
+}
+
+.section-popular-img-3 {
+  background-image: url(images/most-popular-sections/3.png);
+}
+
+.section-popular-img-4 {
+  background-image: url(images/most-popular-sections/4.png);
+}
+
+.section-popular-img-5 {
+  background-image: url(images/most-popular-sections/5.jpeg);
+}
+
+.section-popular-img-6 {
+  background-image: url(images/most-popular-sections/6.jpeg);
+}
+
+.section-popular-img-7 {
+  background-image: url(images/most-popular-sections/7.png);
+}
+
+.section-popular-img-8 {
+  background-image: url(images/most-popular-sections/8.png);
+}
+
+.section-popular-img-9 {
+  background-image: url(images/most-popular-sections/9.jpeg);
+}
+
+.section-popular-header {
+  padding: 1.4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.section-popular-section {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.section-popular-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.6rem;
+}
+
+.section-popular-byline {
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 100%, 0.6);
+  display: flex;
+}
+
+.dot {
+  margin: 0 4px;
+}
+
+.section-latest {
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-latest-header {
+  color: var(--orange);
+  padding: 1rem 1.4rem 0 1.4rem;
+}
+
+.section-latest-section {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.section-latest-title {
+  font-size: 1.4rem;
+}
+
+.section-latest-img {
+  display: block;
+  flex: 0 0 9.6rem;
+  height: 9.6rem;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.section-latest-img-1 {
+  background-image: url(images/latest-sections/1.jpeg);
+}
+
+.section-latest-img-2 {
+  background-image: url(images/latest-sections/2.jpeg);
+}
+
+.section-latest-img-3 {
+  background-image: url(images/latest-sections/3.png);
+}
+
+.section-latest-img-4 {
+  background-image: url(images/latest-sections/4.png);
+}
+
+.section-latest-img-5 {
+  background-image: url(images/latest-sections/5.jpeg);
+}
+
+.section-latest-img-6 {
+  background-image: url(images/latest-sections/6.png);
+}
+
+.section-latest-img-7 {
+  background-image: url(images/latest-sections/7.jpg);
+}
+
+.section-latest-img-8 {
+  background-image: url(images/latest-sections/8.jpeg);
+}
+
+.section-latest-img-9 {
+  background-image: url(images/latest-sections/9.png);
+}
+
+.section-headline {
+  border-bottom: 1px solid #eee;
+}
+
+.section-headline-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+}
+
+.section-headline-title a {
+  display: block;
+  padding: 0.6rem 0 0.6rem 1.4rem;
+  position: relative;
+}
+
+.section-headline-title a::before {
+  content: '• ';
+  color: var(--orange);
+  position: absolute;
+  top: 0.6rem;
+  left: 0;
+}
+
+.section-headline-title a:hover {
+  color: #000;
 }
 
 /* Latest deals */
@@ -635,7 +808,7 @@ a {
 
   .latest-news,
   .latest-fundings,
-  .categories,
+  .sections,
   .latest-deals {
     margin: -1rem;
   }
@@ -643,7 +816,7 @@ a {
   .latest-news-item,
   .latest-deal,
   .latest-funding,
-  .category {
+  .section {
     padding: 1rem;
   }
 
@@ -682,8 +855,8 @@ a {
     display: none;
   }
 
-  /* Categories */
-  .category {
+  /* Sections */
+  .section {
     flex-basis: 50%;
   }
 }
@@ -734,7 +907,7 @@ a {
 
   .latest-news,
   .latest-fundings,
-  .categories,
+  .sections,
   .latest-deals {
     margin: -0.8rem;
   }
@@ -742,7 +915,7 @@ a {
   .latest-news-item,
   .latest-deal,
   .latest-funding,
-  .category {
+  .section {
     padding: 0.8rem;
   }
 
@@ -794,8 +967,8 @@ a {
     height: 25rem;
   }
 
-  /* Categories */
-  .category {
+  /* Sections */
+  .section {
     flex-basis: 100%;
     margin-bottom: 0;
   }
