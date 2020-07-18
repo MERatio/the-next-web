@@ -44,6 +44,10 @@ a {
   color: var(--orange);
 }
 
+.section-header a:hover {
+  color: #000;
+}
+
 .section-title {
   font-size: 2.8rem;
 }
@@ -78,6 +82,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-first a:hover {
+  color: #fff;
 }
 
 .nav ul {
@@ -269,6 +277,11 @@ a {
   margin-bottom: 0.4rem;
 }
 
+.latest-news-item-title a:hover,
+.latest-deal-title a:hover {
+  color: var(--orange);
+}
+
 /* Latest news */
 
 .latest-news-section {
@@ -319,6 +332,10 @@ a {
   color: #aaa;
   display: flex;
   font-size: 1.3rem;
+}
+
+.latest-news-item-byline a:hover {
+  color: #555;
 }
 
 .latest-news-item-byline li:not(:last-child) {
@@ -605,6 +622,10 @@ a {
   font-size: 1.2rem;
   color: hsla(0, 0%, 100%, 0.6);
   display: flex;
+}
+
+.section-popular-byline a:hover {
+  color: #fff;
 }
 
 .dot {
