@@ -738,12 +738,76 @@ a {
 
 .footer-links {
   background-color: #131313;
-  height: 16rem;
+  padding: 4.2rem 0 2.8rem 0;
+}
+
+.footer-links-social,
+.footer-links-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-links-social {
+  margin-bottom: 3rem;
+}
+
+.footer-links-social li {
+  margin: 0 0.8rem;
+}
+
+.footer-links-social a {
+  font-size: 1.8rem;
+  color: #fff;
+  width: 4rem;
+  height: 4rem;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links-social a:hover {
+  background-color: transparent;
+  border: 2px solid #333;
+}
+
+.footer-links-menu {
+  display: flex;
+}
+
+.footer-links-menu li {
+  margin: 0 0.6rem;
+}
+
+.footer-links-menu a {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.footer-links-menu a:hover {
+  color: #fff;
 }
 
 .footer-copyright {
+  font-size: 1.3rem;
+  color: #aaa;
+  padding: 4rem;
   background-color: #000;
-  height: 10rem;
+  text-align: center;
+}
+
+.heart {
+  color: var(--orange);
+}
+
+.footer-copyright-twn-logo,
+.footer-copyright-stackpath-logo {
+  display: inline-block;
+  height: 0.9rem;
+  margin-right: 1px;
 }
 
 /* Media queries */
@@ -995,7 +1059,20 @@ a {
   }
 
   /* Footer */
-  .footer-copyright {
-    height: 12.4rem;
+
+  .footer {
+    line-height: 1.5;
+  }
+
+  .footer-links-social li {
+    margin: 0 0.3rem;
+  }
+
+  .footer-links-menu li {
+    margin: 0 0.6rem;
+  }
+
+  .footer-copyright > span {
+    display: block;
   }
 }
